@@ -1,0 +1,31 @@
+{
+  "name": "minimal-mock",
+  "version": "1.0.0",
+  "description": "极简mock服务，koa搭建，支持多种数据格式",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "mock": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "[\"mock\"",
+    "\"koa\"",
+    "\"mockjs\"]"
+  ],
+  "author": "fxss5201",
+  "license": "MIT",
+  "port": "8888",
+  "timeout": "1000",
+  "devDependencies": {
+    "@koa/router": "^12.0.0",
+    "chalk": "^4.1.1",
+    "koa": "^2.14.1",
+    "koa-bodyparser": "^4.3.0",
+    "mockjs": "^1.1.0",
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7"
+  }
+}
